@@ -1,0 +1,394 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#Comments #defaultOpen {
+    background-color: white;
+}
+
+#Description #commentid {
+    background-color: white;
+}
+
+.main_container {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.box_content {
+    height: 100%;
+    width: 100%;
+}
+
+
+.top_container {
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+
+.image_left {
+    height: 100px;
+    width: 15%;
+
+
+}
+
+.language_container {
+    width: 100%;
+    display: flex;
+}
+
+.language_blank {
+    width: 60%;
+}
+
+.language_flip {
+    width: 40%;
+    color: green;
+    text-align: center;
+    display: flex;
+
+
+}
+
+.language_flip p {
+    border: 2px solid skyblue;
+    border-radius: 2px;
+    width: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+    float: right;
+}
+
+
+.image_left img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.image_right {
+    height: 100px;
+    width: 15%;
+
+
+}
+
+.image_right img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.title_text {
+    width: 70%;
+    font-size: xxx-large;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+}
+
+.title_text p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+
+}
+
+.title_top {
+    height: 33%;
+
+    display: flex;
+}
+
+.hrcomponent {
+    width: 30%;
+    margin: 0px 10px;
+}
+
+.hrcomponent hr {
+
+    background-color: white;
+
+}
+
+.title_mid {
+    height: 33%;
+    margin-left: 16px;
+   
+}
+
+.title_bottom {
+    height: 33%;
+    margin: 14px 0px 0px 85px;
+}
+
+.middle_container {
+
+    height: auto;
+    width: 90%;
+    margin: auto;
+    border: 3px solid white;
+}
+
+.mint_photo {
+    display: flex;
+    height: 34px;
+    width: 100%;
+}
+
+.topleft {
+    height: 100%;
+    width: 10%;
+}
+
+.topleft img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.topmid {
+    width: 80%;
+    display: flex;
+}
+
+.topmid p {
+    background-color: #C5C5A2;
+    border-radius: 7px;
+    font-weight: bolder;
+}
+
+.topmid_left {
+    width: 20%;
+    margin-right: 7px;
+}
+
+.topmid_mid {
+    width: 60%;
+    text-align: center;
+    color: black;
+}
+
+.topmid_right {
+    width: 20%;
+    margin-left: 7px;
+}
+
+.topright {
+    float: right;
+    height: 100%;
+    width: 10%;
+}
+
+.topright img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.fas, .fa-solid {
+    color: #F1AE62;
+    font-size: 11px;
+    margin-top: 21px;
+}
+
+.topmid_left .fa-solid {
+    float: right;
+    margin-left: 5px;
+}
+
+/* food items container starts */
+.food_items_container {
+    width: 100%;
+    display: flex;
+}
+
+.fi_left {
+    width: 49%;
+}
+
+.fi_vl {
+    height: auto;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-left: 3px solid white;
+}
+
+.fi_right {
+    width: 49%;
+}
+
+.food_item {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.fi_headandimage {
+    width: 100%;
+    display: flex;
+    margin-left: 12px;
+
+}
+
+.fi_head {
+    color: black;
+    background-color: white;
+    border-radius: 2px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.fi_headimg {
+    width: 40%;
+    height: 50px;
+}
+
+.fi_headimg img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.fi_content {
+    width: 100%;
+
+}
+
+.fi_peritem {
+    display: flex;
+    width: 100%;
+}
+
+.fi_name {
+    width: 75%;
+    margin: 0px 10px;
+}
+
+.fi_price {
+    width: 33%;
+}
+
+.fi_head h4 {
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+
+/* food items container ends */
+/* css for drinks container starts */
+.bottom_container {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    border: 3px solid white;
+    margin-top: 40px;
+}
+
+.fi_r3_subhead {
+    width: 100%;
+    display: flex;
+}
+
+.fi_subhead_r3blank {
+    width: 60%;
+    margin: 0px 10px;
+}
+
+.fi_subhead_r3half {
+    width: 20%;
+    margin: 0px 10px 0px 0px;
+}
+
+.fi_subhead_r3full {
+    width: 20%;
+}
+
+.fi_r3peritem {
+    display: flex;
+    width: 100%;
+}
+
+.fi_r3name {
+    width: 60%;
+    margin: 0px 10px;
+}
+
+.fi_r3price_half {
+    width: 20%;
+    margin: 0px 10px 0px 0px;
+}
+
+.fi_r3price_full {
+    width: 20%;
+
+}
+
+
+
+.fi_r4_subhead {
+    width: 100%;
+    display: flex;
+}
+
+.fi_subhead_r4blank {
+    width: 40%;
+    margin: 0px 10px;
+}
+
+.fi_subhead_r4quarter {
+    width: 20%;
+    margin: 0px 10px 0px 0px;
+}
+
+.fi_subhead_r4half {
+    width: 20%;
+    margin: 0px 10px 0px 0px;
+}
+
+.fi_subhead_r4full {
+    width: 20%;
+}
+
+.fi_r4peritem {
+    display: flex;
+    width: 100%;
+}
+
+.fi_r4name {
+    width: 40%;
+    margin: 0px 10px;
+}
+
+.fi_r4price_quarter {
+    width: 20%;
+    margin: 0px 10px 0px 0px;
+}
+
+.fi_r4price_half {
+    width: 20%;
+    margin: 0px 10px 0px 0px;
+}
+
+.fi_r4price_full {
+    width: 20%;
+
+}
+
+/* css for drinks container ends */
+.marquee {
+    width: 80%;
+    direction: left;
+    height: 50px;
+    color: Green;
+    margin: auto;
+
+}
