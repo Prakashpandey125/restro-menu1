@@ -96,9 +96,13 @@ body {
 .title_text p {
     margin-block-start: 0em;
     margin-block-end: 0em;
+  
+    text-align: center;
 
 }
-
+.title_top p{
+    width: 40%;
+}
 .title_top {
     height: 33%;
 
@@ -118,13 +122,14 @@ body {
 
 .title_mid {
     height: 33%;
-    margin-left: 16px;
-   
+    text-align: center;
+
 }
 
 .title_bottom {
     height: 33%;
-    margin: 14px 0px 0px 85px;
+    margin: 14px 0px 0px 0px;
+    text-align: center;
 }
 
 .middle_container {
@@ -270,12 +275,12 @@ body {
 }
 
 .fi_name {
-    width: 75%;
+    width: 62%;
     margin: 0px 10px;
 }
 
 .fi_price {
-    width: 33%;
+    width: 38%;
 }
 
 .fi_head h4 {
